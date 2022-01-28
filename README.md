@@ -28,16 +28,18 @@ SOSum is stored in two separate CSV files: `question.csv` and `answer.csv`. Both
 |Summary |Summative sentences from the post content|
 
 ## Labeling tools
-Both the chrome extension and the GUI can be found in `labeling_tools` folder.
+Both the GUI and chrome extension can be found in `labeling_tools` folder.
+
+### GUI for labeling CSV files
+A GUI tool is developed to facilitate labeling of SO posts in CSV files with the same format of `question.csv` and `answer.csv`. A screenshot of our GUI is displayed below.
+![A screenshot of GUI](https://github.com/BonanKou/SOSum-A-Dataset-of-Extractive-Summaries-of-Stack-Overflow-Posts-and-labeling-tools/blob/main/screenshot_wide.png)
+
 
 ### Chrome extension for online labeling
 A link for tutorial video: https://youtu.be/Xo5JyW486O4.
 
 As many new SO posts are posted everyday, one may also be interested in labeling SO posts from the website rather than the data dump. Therefore, we also developed a Chrome extension for labeling SO posts in the web browser. A user can select one or more sentences from a post, right click, and choose ``Mark as Summative Sentence'' to label them as summative sentences. Once the labeling is done, the user can press ``CTRL+ENTER'' to download the post content as well as the labeled summative sentences into a CSV file.
 
-### GUI for labeling CSV files
-A GUI tool is developed to facilitate labeling of SO posts in CSV files with the same format of `question.csv` and `answer.csv`. A screenshot of our GUI is displayed below.
-![A screenshot of GUI](https://github.com/BonanKou/SOSum-A-Dataset-of-Extractive-Summaries-of-Stack-Overflow-Posts-and-labeling-tools/blob/main/screenshot_wide.png)
 
 
 
