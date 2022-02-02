@@ -9,7 +9,6 @@ Stack Overflow (SO) is becoming an indispensable part of the modern software dev
 
 ### Data format
 SOSum is stored in two separate CSV files: `question.csv` and `answer.csv`. Both can be found in `data` folder.
-
 `question.csv` contains metadata of 506 popular SO questions. We summarize its fields as below:
 |Field | Description|
 | ----------- | ----------- |
@@ -31,7 +30,7 @@ SOSum is stored in two separate CSV files: `question.csv` and `answer.csv`. Both
 Both the GUI and chrome extension can be found in `labeling_tools` folder.
 
 ### GUI for labeling CSV files
-A GUI tool is developed to facilitate labeling of SO posts in CSV files with the same format of `question.csv` and `answer.csv`. A screenshot of our GUI is displayed below.
+~A GUI tool is developed to facilitate labeling of SO posts in CSV files with the same format of `question.csv` and `answer.csv`.~ (Update on 2/2/2022. Instead of `question.csv` and `answer.csv`, load `example.csv` to try out the GUI.) A screenshot of our GUI is displayed below.
 ![A screenshot of GUI](https://github.com/BonanKou/SOSum-A-Dataset-of-Extractive-Summaries-of-Stack-Overflow-Posts-and-labeling-tools/blob/main/screenshot_wide.png)
 
 
